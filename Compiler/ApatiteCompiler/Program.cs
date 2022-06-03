@@ -106,6 +106,8 @@ namespace ApatiteCompiler
             {
                 return new string[2] {"0", aptt_source};
             }
+
+            c_source += File.ReadAllText(AppDomain.CurrentDomain.BaseDirectory+"lib\\apatite.cpp")+"\n";
                 
 
             if(include_main)
