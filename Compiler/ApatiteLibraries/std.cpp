@@ -28,3 +28,12 @@ void __FUNCTION__APATITE__print(int s)
 {
 	std::cout << s;
 }
+void __FUNCTION__APATITE__println(const char* s)
+{
+	std::cout << s << endl;
+}
+void __FUNCTION__APATITE__println(int s)
+{
+	std::cout << s << endl;
+}
+
