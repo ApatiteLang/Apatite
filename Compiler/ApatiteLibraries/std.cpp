@@ -46,25 +46,25 @@ void __FUNCTION__APATITE__print(bool s)
 }
 void __FUNCTION__APATITE__println(const char* s)
 {
-	std::cout << s << endl;
+	std::cout << s << std::endl;
 }
 void __FUNCTION__APATITE__println(int s)
 {
-	std::cout << s << endl;
+	std::cout << s << std::endl;
 }
 void __FUNCTION__APATITE__println(float s)
 {
-	std::cout << s << endl;
+	std::cout << s << std::endl;
 }
 void __FUNCTION__APATITE__println(double s)
 {
-	std::cout << s << endl;
+	std::cout << s << std::endl;
 }
 void __FUNCTION__APATITE__println(char s)
 {
-	std::cout << s << endl;
+	std::cout << s << std::endl;
 }
 void __FUNCTION__APATITE__println(bool s)
 {
-	std::cout << s << endl;
+	std::cout << s << std::endl;
 }
